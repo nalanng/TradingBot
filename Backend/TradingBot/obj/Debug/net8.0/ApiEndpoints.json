@@ -1,0 +1,100 @@
+[
+  {
+    "ContainingType": "TradingBot.Controllers.BacktestController",
+    "Method": "RunBacktest",
+    "RelativePath": "api/Backtest/run-backtest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "symbol",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "interval",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "buyRsiThreshold",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "sellRsiThreshold",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "emaPeriod",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TradingBot.Controllers.BinanceController",
+    "Method": "GetHistoricalQuotes",
+    "RelativePath": "api/Binance/GetHistoricalQuotes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "symbol",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "interval",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "range",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TradingBot.Controllers.LiveBacktestController",
+    "Method": "StartTradingBot",
+    "RelativePath": "api/LiveBacktest/start",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "symbol",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "interval",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "buyRsiThreshold",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "sellRsiThreshold",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "emaPeriod",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

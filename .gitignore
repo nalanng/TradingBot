@@ -1,0 +1,10 @@
+# Node.js
+frontend/node_modules/
+
+# .NET
+backend/bin/
+backend/obj/
+
+# Genel
+*.log
+*.env
