@@ -1,0 +1,25 @@
+ .trades-container {
+    flex: 1;
+    max-height: 700px;
+    width: 400px;
+    overflow-y: auto;
+  }
+  
+  .trades-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .trades-table th,
+  .trades-table td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .row-even {
+    background-color: #2a2a2a;
+  }
+  
+  .row-odd {
+    background-color: #1e1e1e;
+  }

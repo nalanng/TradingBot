@@ -1,0 +1,17 @@
+.candle-info {
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    background-color: #1e1e1e; 
+    color: #ffffff;
+    width: 80%;
+    max-width: 1200px;
+    text-align: center;
+    font-size: 1em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .candle-info p {
+    margin: 5px 0;
+  }

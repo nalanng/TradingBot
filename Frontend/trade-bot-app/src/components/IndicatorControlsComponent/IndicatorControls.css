@@ -1,0 +1,94 @@
+  .common-container {
+    margin: 20px auto; 
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    background-color: #1e1e1e; 
+    color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    width: 80%; 
+    max-width: 1200px; 
+    text-align: center; 
+  }
+  
+  .section-title {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #ffffff; 
+    font-weight: bold;
+  }
+  
+  .backtest-controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 25px; 
+    flex-direction: column;
+  }
+  
+  .backtest-div {
+    display: flex;
+    justify-content: center; 
+    gap: 15px; 
+  }
+  
+  .input-box,
+  .select-input {
+    width: 70%; 
+    max-width: 200px; 
+    padding: 8px; 
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #2b2b2b;
+    color: #ffffff;
+    font-size: 0.9em; 
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .input-box:focus,
+  .select-input:focus {
+    outline: none;
+    border-color: #ffcc00; 
+    box-shadow: 0 0 8px #ffcc00; 
+  }
+  
+  /* Dropdown */
+  .select-input option {
+    background-color: #2b2b2b;
+    color: #ffffff;
+    font-size: 0.9em; 
+    padding: 8px;
+  }
+  
+  .backtest-button {
+    padding: 8px 16px; 
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .backtest-button:disabled {
+    background-color: #777; 
+    cursor: not-allowed;
+  }
+  
+  .backtest-button:hover:not(:disabled) {
+    background-color: #45a049;
+    transform: translateY(-2px); 
+  }
+  
+  @media (max-width: 768px) {
+    .input-box,
+    .select-input {
+      width: 90%; 
+    }
+  
+    .backtest-controls {
+      gap: 10px;
+    }
+  }

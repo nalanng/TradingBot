@@ -1,0 +1,60 @@
+  .backtest-results-container {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    width: 80%; 
+    max-width: 1200px; 
+    text-align: center; 
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .backtest-results-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto; 
+  }
+  
+  .backtest-results-table th,
+  .backtest-results-table td {
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .backtest-results-table th {
+    background-color: #333;
+    color: #ffcc00;
+    font-weight: bold;
+  }
+  
+  .backtest-results-table .row-even {
+    background-color: #2b2b2b;
+  }
+  
+  .backtest-results-table .row-odd {
+    background-color: #1e1e1e;
+  }
+  
+  .backtest-results-table tr:hover {
+    background-color: #444;
+  }
+  
+  .final-capital {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: #ffcc00; 
+  }
+  
+  .section-title {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #ffffff; 
+    font-weight: bold;
+  }
