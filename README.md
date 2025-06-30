@@ -15,11 +15,10 @@ Supports real-time and historical analysis for the following cryptocurrency pair
 - **RENDERUSDT**
 - **FETUSDT**
 
-### Strategy Indicators:
-
-- **RSI (Relative Strength Index)**
-- **MACD (Moving Average Convergence Divergence)**
-- **EMA (Exponential Moving Average)**
+### 🧮 Technical Indicators
+- **RSI** (Relative Strength Index)
+- **MACD** (Moving Average Convergence Divergence)
+- **EMA** (Exponential Moving Average)
 
 ---
 
